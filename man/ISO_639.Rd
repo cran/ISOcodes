@@ -2,20 +2,22 @@
 \alias{ISO_639_2}
 \alias{ISO_639_3}
 \alias{ISO_639_3_Retirements}
+\alias{ISO_639_5}
 \title{ISO 639 Language Codes}
 \description{
   International Organization for Standardization (ISO) codes for the
-  representation of languages.  Consists of three parts, with more parts
+  representation of languages.  Consists of four parts, with more parts
   work in progress.  ISO 639-1 consists of 185 two-letter (alpha-2)
   codes used to identify the world's major languages.  ISO 639-2 has
   three-letter (alpha-3) codes for 485 languages.  ISO 639-3 extends the
   ISO 639-2 alpha-3 codes with an aim to cover all known natural
-  languages.
+  languages.  ISO 639-5 defines alpha-3 codes for language families.  
 }
 \usage{
 data("ISO_639_2")
 data("ISO_639_3")
 data("ISO_639_3_Retirements")
+data("ISO_639_5")
 }
 \format{
   \code{ISO_639_2} is a character data frame with variables
@@ -61,7 +63,23 @@ data("ISO_639_3_Retirements")
       updating an instance of the retired (split) identifier.}
     \item{\code{Effective}:}{a \code{\link{Date}} object giving the date
       the retirement became effective.}
-    }
+  }
+
+  \code{ISO_639_5} is a data frame with the following variables:
+  \describe{
+    \item{Id}{a character vector with the 3-letter (alpha-3) ISO 639-5
+      identifiers.}
+    \item{English_Name}{the family names in English.}
+    \item{French_Name}{the family names in French.}
+    \item{Part2}{a factor indicating how the family relates to 639-2,
+      with levels \code{"g"} (group: consists of several related
+      languages), \code{"r"} (rest group: a group of several related
+      languages, from which some specific languages have been excluded),
+      or \code{""} (no 639-2 code).}
+    \item{Hierarchy}{an indication of which other language families or
+      groups the current language family or group is a member of (given
+      as 639-5 ids separated by \samp{ : }).}
+  }
 }
 \details{
   While most languages are given one code by the ISO 639-2 standard,
@@ -78,10 +96,15 @@ data("ISO_639_3_Retirements")
   Since ISO 639-2 also includes language collections, whereas Part 3
   does not, ISO 639-3 is not a superset of ISO 639-2.  Where B and T
   codes exist in ISO 639-2, ISO 639-3 uses the T-codes.
+
+  ISO 639-2 contains codes for some individual and group languages and
+  so any code in it is either in 639-3 or 639-5; 639-5 families may be
+  missing from 639-2.
 }
 \source{
   \url{http://www.loc.gov/standards/iso639-2/} for ISO 639-2;\cr
-  \url{http://www.sil.org/iso639-3/download.asp} for ISO 639-3.
+  \url{http://www.sil.org/iso639-3/download.asp} for ISO 639-3;\cr
+  \url{http://www.loc.gov:8081/standards/iso639-5/} for ISO 639-5.
 }
 \references{
   \url{http://en.wikipedia.org/wiki/ISO_639}
