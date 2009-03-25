@@ -67,18 +67,18 @@ data("ISO_639_5")
 
   \code{ISO_639_5} is a data frame with the following variables:
   \describe{
-    \item{Id}{a character vector with the 3-letter (alpha-3) ISO 639-5
-      identifiers.}
-    \item{English_Name}{the family names in English.}
-    \item{French_Name}{the family names in French.}
-    \item{Part2}{a factor indicating how the family relates to 639-2,
-      with levels \code{"g"} (group: consists of several related
+    \item{\code{Id}}{a character vector with the 3-letter (alpha-3) ISO
+      639-5 identifiers.}
+    \item{\code{English_Name}}{the family names in English.}
+    \item{\code{French_Name}}{the family names in French.}
+    \item{\code{Part2}}{a factor indicating how the family relates to
+      639-2, with levels \code{"g"} (group: consists of several related
       languages), \code{"r"} (rest group: a group of several related
       languages, from which some specific languages have been excluded),
       or \code{""} (no 639-2 code).}
-    \item{Hierarchy}{an indication of which other language families or
-      groups the current language family or group is a member of (given
-      as 639-5 ids separated by \samp{ : }).}
+    \item{\code{Hierarchy}}{an indication of which other language
+      families or groups the current language family or group is a
+      member of (given as 639-5 ids separated by \samp{ : }).}
   }
 }
 \details{
