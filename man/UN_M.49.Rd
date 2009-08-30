@@ -20,7 +20,7 @@ data("UN_M.49_Regions")
   \code{UN_M.49_Countries} contains the codes for countries and areas as
   a character frame with variables \code{Code}, \code{Name} and
   \code{ISO_Alpha_3} giving the 3-letter UN M.49 code and name and the
-  respective alpha-3 \link[ISO_3166_1]{ISO 3166} code.
+  respective alpha-3 \link[=ISO_3166_1]{ISO 3166} code.
 
   \code{UN_M.49_Regions} contains the codes for the composition of macro
   geographical (continental) regions, geographical sub-regions, and
