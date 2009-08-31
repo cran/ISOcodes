@@ -32,7 +32,7 @@ data("Unicode")
     \item{\code{Numeric_Value_Digit}:}{a character vector giving the
       numeric (integer) value of the character if it has the digit
       property.}
-    \item{\code{Numeric_Value}:}{a character vector goving the numeric
+    \item{\code{Numeric_Value}:}{a character vector giving the numeric
       (integer or rational) value of the character if it has the numeric
       property.}
     \item{\code{Bidi_Mirrored}:}{a factor with levels \code{"Y"} and
