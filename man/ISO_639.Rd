@@ -88,7 +88,7 @@ data("ISO_639_5")
   from the English name for the language and was a necessary legacy
   feature, and a \dQuote{terminological} code (ISO 639-2/T, T-code),
   which is derived from the native name for the language.  The range
-  qaa-qtz is reserved for local use.
+  \samp{qaa} to \samp{qtz} is reserved for local use.
 
   ISO 639-3 is a superset of ISO 639-1 and of the individual languages
   in ISO 639-2. ISO 639-1 and ISO 639-2 focused on major languages, most

@@ -13,8 +13,8 @@ data("ISO_8859")
   A character array of dimension \eqn{256 \times 15 \times 3}, with the
   first dimension corresponding to the character codes from 0 to 255
   (0x00 to 0xff), the second to the parts of the ISO 8859 standard, and
-  the third to the \link{Unicode} code and name and the respective
-  character.
+  the third to the \link[Unicode:u_char_properties]{Unicode} (ISO 10646)
+  code and name, and the respective character.
 }
 \details{
   The ISO 8859, more formally ISO/IEC 8859, standard is divided into

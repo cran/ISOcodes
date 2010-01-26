@@ -20,7 +20,8 @@ data("ISO_15924")
     \item{\code{Name}}{a character vector with the (English) script
       names.}
     \item{\code{PVA}}{a character vector with the Property Value Alias
-      defined by \link{Unicode} (if available).}
+      defined by \link[Unicode:u_scripts]{Unicode} (ISO 10646) (if
+      available).}
     \item{\code{Date}}{a \code{\link{Date}} object with the date the
       script was registered.}
   }
