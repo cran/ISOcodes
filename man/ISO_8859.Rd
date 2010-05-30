@@ -41,7 +41,7 @@ data("ISO_8859")
   }
 }
 \source{
-  \url{ftp://ftp.unicode.org/Public/MAPPINGS/ISO8859}.
+  \url{http://unicode.org/Public/MAPPINGS/ISO8859}.
 }
 \references{
   \url{http://en.wikipedia.org/wiki/ISO_8859}
