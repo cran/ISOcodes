@@ -23,7 +23,8 @@ data("ISO_639_5")
   \code{ISO_639_2} is a character data frame with variables
   \code{Alpha_3_B} and \code{Alpha_3_T} (the ISO 639-2 bibliographic and
   terminological codes), \code{Alpha_2} (the corresponding ISO 639-1
-  alpha-2 code if available), and \code{Name}.
+  alpha-2 code if available), \code{Name} and \code{Native_Name} (the
+  English and native name(s) of the language).
 
   \code{ISO_639_3} is a data frame with the following variables:
   \describe{
