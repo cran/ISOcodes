@@ -23,8 +23,8 @@ data("ISO_639_5")
   \code{ISO_639_2} is a character data frame with variables
   \code{Alpha_3_B} and \code{Alpha_3_T} (the ISO 639-2 bibliographic and
   terminological codes), \code{Alpha_2} (the corresponding ISO 639-1
-  alpha-2 code if available), \code{Name} and \code{Native_Name} (the
-  English and native name(s) of the language).
+  alpha-2 code if available), and \code{Name} (the English name of the
+  language).
 
   \code{ISO_639_3} is a data frame with the following variables:
   \describe{
@@ -48,7 +48,23 @@ data("ISO_639_5")
       names.}
     \item{\code{Comment}:}{a character vector with a comment relating to
       one or more of the other variables.}
+    \item{\code{Family}:}{a character vector with the generic English
+      names of the languages' family or macrolanguage.}
+    \item{\code{eng}:}{a character vector with the language names in
+      English.}
+    \item{\code{fra}:}{a character vector with the language names in
+      French (if available).}
+    \item{\code{spa}:}{a character vector with the language names in
+      Spanish (if available).}
+    \item{\code{zho}:}{a character vector with the language names in
+      Chinese (if available).}
+    \item{\code{rus}:}{a character vector with the language names in
+      Russian (if available).}
+    \item{\code{deu}:}{a character vector with the language names in
+      German (if available).}
   }
+  Variables \code{Family} and \code{eng} to \code{deu} are extracted
+  from the Wikipedia ISO 639-3 language codes pages.
 
   \code{ISO_639_3_Retirements} is a data frame giving the languages
   retired from ISO 639-3, with variables:
