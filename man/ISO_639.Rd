@@ -120,7 +120,7 @@ data("ISO_639_5")
 }
 \source{
   \url{http://www.loc.gov/standards/iso639-2/} for ISO 639-2;\cr
-  \url{http://www.sil.org/iso639-3/download.asp} for ISO 639-3;\cr
+  \url{http://www-01.sil.org/iso639-3/download.asp} for ISO 639-3;\cr
   \url{http://www.loc.gov:8081/standards/iso639-5/} for ISO 639-5.
 }
 \references{
