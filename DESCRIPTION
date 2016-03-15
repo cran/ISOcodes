@@ -1,5 +1,5 @@
 Package: ISOcodes
-Version: 2015.04.04
+Version: 2016.03.15
 Encoding: UTF-8
 Title: Selected ISO Codes
 Authors@R: c(person("Christian", "Buchta", role = "aut"),
@@ -11,10 +11,10 @@ Description: ISO language, territory, currency, script and character codes.
   as well as the UN M.49 area codes.
 Depends: R (>= 2.10)
 License: GPL-2
-Packaged: 2015-04-04 11:57:34 UTC; hornik
+NeedsCompilation: no
+Packaged: 2016-03-15 18:09:21 UTC; hornik
 Author: Christian Buchta [aut],
   Kurt Hornik [aut, cre]
 Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
-NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2015-04-04 13:59:27
+Date/Publication: 2016-03-15 20:14:55
