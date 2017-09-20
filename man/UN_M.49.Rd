@@ -7,8 +7,8 @@
   Statistics Division.
 }
 \usage{
-data("UN_M.49_Countries")
-data("UN_M.49_Regions")
+UN_M.49_Countries
+UN_M.49_Regions
 }
 \details{
   UN M.49 is a standard for area codes used by the United Nations for

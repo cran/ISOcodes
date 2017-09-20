@@ -1,5 +1,5 @@
 Package: ISOcodes
-Version: 2016.12.09
+Version: 2017.09.20
 Encoding: UTF-8
 Title: Selected ISO Codes
 Authors@R: c(person("Christian", "Buchta", role = "aut"),
@@ -9,12 +9,13 @@ Description: ISO language, territory, currency, script and character codes.
   Provides ISO 639 language codes, ISO 3166 territory codes, ISO 4217
   currency codes, ISO 15924 script codes, and the ISO 8859 character codes
   as well as the UN M.49 area codes.
-Depends: R (>= 2.10)
+Depends: R (>= 2.10.0)
 License: GPL-2
+LazyData: yes
 NeedsCompilation: no
-Packaged: 2016-12-09 09:34:18 UTC; hornik
+Packaged: 2017-09-20 15:27:26 UTC; hornik
 Author: Christian Buchta [aut],
   Kurt Hornik [aut, cre]
 Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
 Repository: CRAN
-Date/Publication: 2016-12-09 10:41:30
+Date/Publication: 2017-09-20 15:30:53 UTC

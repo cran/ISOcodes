@@ -7,8 +7,8 @@
   representation of currencies.
 }
 \usage{
-data("ISO_4217")
-data("ISO_4217_Historic")
+ISO_4217
+ISO_4217_Historic
 }
 \format{
   \code{ISO_4217} is a character frame with variables \code{Letter},

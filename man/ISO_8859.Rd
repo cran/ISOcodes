@@ -7,7 +7,7 @@
   of the characters to Unicode (i.e., the respective ISO 10646 codes).
 }
 \usage{
-data("ISO_8859")
+ISO_8859
 }
 \format{
   A character array of dimension \eqn{256 \times 15 \times 3}, with the

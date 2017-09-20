@@ -13,9 +13,9 @@
   superseded ISO 3166-1 codes.
 }
 \usage{
-data("ISO_3166_1")
-data("ISO_3166_2")
-data("ISO_3166_3")
+ISO_3166_1
+ISO_3166_2
+ISO_3166_3
 }
 \format{
   \code{ISO_3166_1} is a character frame with variables \code{Alpha_2},
@@ -25,9 +25,9 @@ data("ISO_3166_3")
   names).
 
   \code{ISO_3166_2} is a character frame with variables \code{Code},
-  \code{Type}, \code{Name}, \code{Country}, and \code{Parent}, giving
-  the code, type and name of the subdivision, the country it belongs to,
-  and a parent subdivision in case this is different from the country.
+  \code{Type}, \code{Name}, and \code{Parent}, giving the code, type and
+  name of the subdivision, and a parent subdivision in case this is
+  different from the country.
 
   \code{ISO_3166_3} is a character frame with variables \code{Alpha_4}
   (the 4-letter code of the retired country), \code{Alpha_3},
@@ -35,7 +35,7 @@ data("ISO_3166_3")
   the country), and \code{Date_withdrawn} and \code{Comment}.
 }
 \source{
-  Converted from XML files provided by Debian's \pkg{iso-codes} package
+  Converted from JSON files provided by Debian's \pkg{iso-codes} package
   (\url{http://pkg-isocodes.alioth.debian.org/}).
 }
 \references{

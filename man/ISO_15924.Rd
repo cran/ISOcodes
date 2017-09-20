@@ -8,7 +8,7 @@
     languages}). 
 }
 \usage{
-data("ISO_15924")
+ISO_15924
 }
 \format{
   \code{ISO_15924} is a data frame with variables

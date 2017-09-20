@@ -14,10 +14,10 @@
   languages.  ISO 639-5 defines alpha-3 codes for language families.  
 }
 \usage{
-data("ISO_639_2")
-data("ISO_639_3")
-data("ISO_639_3_Retirements")
-data("ISO_639_5")
+ISO_639_2
+ISO_639_3
+ISO_639_3_Retirements
+ISO_639_5
 }
 \format{
   \code{ISO_639_2} is a character data frame with variables
