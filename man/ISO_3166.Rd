@@ -36,7 +36,7 @@ ISO_3166_3
 }
 \source{
   Converted from JSON files provided by Debian's \pkg{iso-codes} package
-  (\url{http://pkg-isocodes.alioth.debian.org/}).
+  (\url{https://salsa.debian.org/iso-codes-team/iso-codes}).
 }
 \references{
   \url{http://en.wikipedia.org/wiki/ISO_3166}
