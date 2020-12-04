@@ -39,6 +39,6 @@ ISO_3166_3
   (\url{https://salsa.debian.org/iso-codes-team/iso-codes}).
 }
 \references{
-  \url{http://en.wikipedia.org/wiki/ISO_3166}
+  \url{https://en.wikipedia.org/wiki/ISO_3166}
 }
 \keyword{datasets}

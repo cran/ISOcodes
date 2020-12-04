@@ -41,9 +41,9 @@ ISO_15924
   }
 }
 \source{
-  \url{http://www.unicode.org/iso15924/}
+  \url{https://www.unicode.org/iso15924/}
 }
 \references{
-  \url{http://en.wikipedia.org/wiki/ISO_15924}
+  \url{https://en.wikipedia.org/wiki/ISO_15924}
 }
 \keyword{datasets}

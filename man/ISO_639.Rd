@@ -119,11 +119,11 @@ ISO_639_5
   missing from 639-2.
 }
 \source{
-  \url{http://www.loc.gov/standards/iso639-2/} for ISO 639-2;\cr
-  \url{http://www-01.sil.org/iso639-3/download.asp} for ISO 639-3;\cr
-  \url{http://www.loc.gov/standards/iso639-5/} for ISO 639-5.
+  \url{https://www.loc.gov/standards/iso639-2/} for ISO 639-2;\cr
+  \url{https://iso639-3.sil.org/code_tables/download_tables} for ISO 639-3;\cr
+  \url{https://www.loc.gov/standards/iso639-5/} for ISO 639-5.
 }
 \references{
-  \url{http://en.wikipedia.org/wiki/ISO_639}
+  \url{https://en.wikipedia.org/wiki/ISO_639}
 }
 \keyword{datasets}

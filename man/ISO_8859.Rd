@@ -41,10 +41,10 @@ ISO_8859
   }
 }
 \source{
-  \url{http://unicode.org/Public/MAPPINGS/ISO8859}.
+  \url{https://unicode.org/Public/MAPPINGS/ISO8859/}.
 }
 \references{
-  \url{http://en.wikipedia.org/wiki/ISO_8859}
+  \url{https://en.wikipedia.org/wiki/ISO_8859}
 }
 \examples{
 ## ISO 8859 characters at position 200 (number 199).

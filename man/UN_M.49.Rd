@@ -32,7 +32,7 @@ UN_M.49_Regions
   \code{"Region"} or \code{"Grouping".}
 }
 \source{
-  \url{http://unstats.un.org/unsd/methods/m49/m49.htm}
+  \url{https://unstats.un.org/unsd/methods/m49/m49.htm}
 }
 \examples{
 ## Name and codes of countries in Southern Europe:

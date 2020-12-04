@@ -24,6 +24,6 @@ ISO_4217_Historic
   (\url{https://salsa.debian.org/iso-codes-team/iso-codes}).
 }
 \references{
-  \url{http://en.wikipedia.org/wiki/ISO_4217}
+  \url{https://en.wikipedia.org/wiki/ISO_4217}
 }
 \keyword{datasets}
