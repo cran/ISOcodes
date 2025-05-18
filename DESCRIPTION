@@ -1,5 +1,5 @@
 Package: ISOcodes
-Version: 2024.02.12
+Version: 2025.05.18
 Encoding: UTF-8
 Title: Selected ISO Codes
 Authors@R: c(person("Christian", "Buchta", role = "aut"),
@@ -14,9 +14,9 @@ Depends: R (>= 3.5.0)
 License: GPL-2
 LazyData: yes
 NeedsCompilation: no
-Packaged: 2024-02-12 12:45:42 UTC; hornik
+Packaged: 2025-05-18 15:54:47 UTC; hornik
 Author: Christian Buchta [aut],
-  Kurt Hornik [aut, cre] (<https://orcid.org/0000-0003-4198-9911>)
+  Kurt Hornik [aut, cre] (ORCID: <https://orcid.org/0000-0003-4198-9911>)
 Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
 Repository: CRAN
-Date/Publication: 2024-02-12 13:00:27 UTC
+Date/Publication: 2025-05-18 16:07:59 UTC
