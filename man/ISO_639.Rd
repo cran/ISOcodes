@@ -50,20 +50,10 @@ ISO_639_5
       one or more of the other variables.}
     \item{\code{Family}:}{a character vector with the generic English
       names of the languages' family or macrolanguage.}
-    \item{\code{eng}:}{a character vector with the language names in
-      English.}
-    \item{\code{fra}:}{a character vector with the language names in
-      French (if available).}
-    \item{\code{spa}:}{a character vector with the language names in
-      Spanish (if available).}
-    \item{\code{zho}:}{a character vector with the language names in
-      Chinese (if available).}
-    \item{\code{rus}:}{a character vector with the language names in
-      Russian (if available).}
-    \item{\code{deu}:}{a character vector with the language names in
-      German (if available).}
+    \item{\code{Native}:}{a character vector with the native language
+      name (if available).}
   }
-  Variables \code{Family} and \code{eng} to \code{deu} are extracted
+  Variables \code{Family} and \code{Native} are extracted
   from the Wikipedia ISO 639-3 language codes pages.
 
   \code{ISO_639_3_Retirements} is a data frame giving the languages
